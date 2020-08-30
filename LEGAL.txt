@@ -1,0 +1,5 @@
+Regarding 'Spare The Rod'; The text, assets (not originating from projects listed in the 'credit' section), & all embedded content (ie: code and videos) are under the CC-BY-SA 4.0+, unless explicitly stated otherwise.
+
+- CREDIT - 
+This site is based off of Mkdocs (https://www.mkdocs.org/) and Material Theme (https://squidfunk.github.io/mkdocs-material/) ; Which are under the BSD 2-Clause & MIT License, respectively.
+

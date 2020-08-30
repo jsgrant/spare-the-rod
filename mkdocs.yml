@@ -1,4 +1,49 @@
-site_name: Spare The Rod
+site_name: Spare The Rod - A Gentle, But Firm Introduction To The Art Of Computer Programming (In Nim).
+site_description: 101-Level Course JSGrant Is Writing As He Re-Learns Programming In Nim.
+site_url: https://jsgrant.github.io/spare-the-rod/
+site_author: jsgrant; Joshua S. Grant.
+copyright: Spare The Rod, © 2020; Joshua S. Grant (jsgrant) - CC-BY-SA 4.0+
+repo_url: https://github.com/jsgrant/spare-the-rod
+repo_name: jsgrant/spare-the-rod
 
 theme:
-  name: material
+  name: 'material'
+  logo: 'img/logo.png'
+  favicon: 'img/favicon.ico'
+  palette:
+    primary: 'black'
+    accent: 'black'
+
+site_dir: docs
+docs_dir: src
+
+google_analytics:
+  - ''
+  - 'auto'
+
+nav:
+    - "The Index / Readme": 'index.md'
+    - "Setting Things Up": 'setup.md'
+    - "Basic Navigation": 'navigate.md'
+    - "Greetings" : 'greetings.md' 
+
+## Icons Broken For Some Reason ...?
+#extra:
+#  social:
+#    - type: 'globe'
+#      link: 'https://jsgrant.github.io'
+#    - type: 'github'
+#      link: 'https://github.com/jsgrant'
+#    - type: 'twitter'
+#      link: 'https://twitter.com/jsgrant92'
+#    - type: 'dollar'
+#      link: 'https://patreon.com/jsgrant'
+
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - toc:
+      permalink: true
